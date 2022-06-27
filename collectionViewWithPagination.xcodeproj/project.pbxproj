@@ -16,6 +16,8 @@
 		C70DF319286A010200611A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70DF317286A010200611A80 /* LaunchScreen.storyboard */; };
 		C70DF324286A010300611A80 /* collectionViewWithPaginationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF323286A010300611A80 /* collectionViewWithPaginationTests.swift */; };
 		C70DF32F286A010300611A80 /* collectionViewWithPaginationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF32E286A010300611A80 /* collectionViewWithPaginationUITests.swift */; };
+		C70DF341286A02E300611A80 /* imageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF33F286A02E300611A80 /* imageCollectionView.swift */; };
+		C70DF342286A02E300611A80 /* imageCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70DF340286A02E300611A80 /* imageCollectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C70DF32A286A010300611A80 /* collectionViewWithPaginationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewWithPaginationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70DF32E286A010300611A80 /* collectionViewWithPaginationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewWithPaginationUITests.swift; sourceTree = "<group>"; };
 		C70DF330286A010300611A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70DF33F286A02E300611A80 /* imageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionView.swift; sourceTree = "<group>"; };
+		C70DF340286A02E300611A80 /* imageCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = imageCollectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				C70DF317286A010200611A80 /* LaunchScreen.storyboard */,
 				C70DF31A286A010200611A80 /* Info.plist */,
 				C70DF312286A010000611A80 /* collectionViewWithPagination.xcdatamodeld */,
+				C70DF33F286A02E300611A80 /* imageCollectionView.swift */,
+				C70DF340286A02E300611A80 /* imageCollectionView.xib */,
 			);
 			path = collectionViewWithPagination;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			files = (
 				C70DF319286A010200611A80 /* LaunchScreen.storyboard in Resources */,
 				C70DF316286A010200611A80 /* Assets.xcassets in Resources */,
+				C70DF342286A02E300611A80 /* imageCollectionView.xib in Resources */,
 				C70DF311286A010000611A80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70DF341286A02E300611A80 /* imageCollectionView.swift in Sources */,
 				C70DF30E286A010000611A80 /* ViewController.swift in Sources */,
 				C70DF30A286A010000611A80 /* AppDelegate.swift in Sources */,
 				C70DF314286A010000611A80 /* collectionViewWithPagination.xcdatamodeld in Sources */,
